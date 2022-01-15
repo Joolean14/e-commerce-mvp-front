@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import {
+  AiFillFacebook,
+  AiOutlineInstagram,
+  AiOutlineYoutube,
+} from "react-icons/ai";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <footer className="footer">
+        <div className="social-icons-container">
+          <AiFillFacebook></AiFillFacebook>
+          <AiOutlineInstagram></AiOutlineInstagram>
+          <AiOutlineYoutube></AiOutlineYoutube>
+        </div>
+        <div>
+          <p>Falso Ídolo © | Terms & Conditions | Privacy Policy</p>
+        </div>
+      </footer>
     </div>
   );
 }
