@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <header className="header">
-        <img className="logo" src={logo}></img>
+        <img className="logo" src={logo} alt="Falso Ídolo Logo"></img>
         <div className="menu">
         </div>
       </header>
@@ -24,9 +24,9 @@ function App() {
         <div className="legal-container">
           <p className="brand-name legal-text">Falso Ídolo ©</p>
           <p className="legal-text">|</p>
-          <a className="legal-text">Terms & Conditions</a>
+          <p className="legal-text">Terms & Conditions</p>
           <p className="legal-text">|</p>
-          <a className="legal-text">Privacy Policy</a>
+          <p className="legal-text">Privacy Policy</p>
         </div>
       </footer>
     </div>
