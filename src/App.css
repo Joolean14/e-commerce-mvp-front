@@ -2,13 +2,36 @@
 
 /* Globals ============================================================================== */
 
+body {
+  padding: 0;
+}
 
 /* Color Palette ======================================================================= */
 
+/* Header ===================================================================================== */
 
-/* Logo ===================================================================================== */
+.header {
+  width: 100%;
+  max-height: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.logo {
+  width: 7%;
+  margin: 0.5%;
+}
 
+.menu {
+  background-color: aqua;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 0.5%;
+
+}
 
 
 /* Footer ============================================================================= */
@@ -16,17 +39,59 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 10%;
+  /* height: 10%; */
   background-color: rgb(197, 197, 197);
   position: absolute;
-  top: 90%;
+  bottom: 0;
+  padding: 1% 0%;
 }
 
 .social-icons-container {
   display: flex;
-  width: 40%;
-  height: auto; 
+  width: 15%;
+  height: auto;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: baseline;
+  margin-left: 3%;
 }
+
+.footer-icon {
+  font-size: 25px;
+}
+
+.legal-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin-left: 3%;
+}
+
+.brand-name {
+  display: inline;
+}
+
+.legal-text {
+  margin: 0 0.5%;
+}
+
+/* 481px — 768px: iPads, Tablets */
+@media only screen and (max-width: 600px) {
+
+  .social-icons-container {
+    width: 100%;
+  }
+
+  .legal-container {
+    width: 100%;
+  }
+}
+
+
+
+/* 320px — 480px: Mobile devices
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
