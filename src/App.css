@@ -17,10 +17,11 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  /* padding: 1%; */
 }
 
 .logo {
-  width: 7%;
+  width: 5%;
   margin: 0.5%;
 }
 
@@ -30,9 +31,50 @@ body {
   width: 30px;
   height: 30px;
   margin: 0.5%;
+}
+
+/* Filters ============================================================================ */
+
+.filters {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-right: 3%;
+}
+
+.filter-icon {
+  padding: 1%;
+}
+
+.filter-categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* Products container =================================================================== */
+
+.products-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* max-height: 40%; */
+  overflow-y: auto;
 
 }
 
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+}
 
 /* Footer ============================================================================= */
 .footer {
@@ -41,9 +83,9 @@ body {
   width: 100%;
   /* height: 10%; */
   background-color: rgb(197, 197, 197);
-  position: absolute;
-  bottom: 0;
-  padding: 1% 0%;
+  /* position: absolute;
+  bottom: 0; */
+  /* padding: 1%; */
 }
 
 .social-icons-container {
@@ -53,7 +95,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: baseline;
-  margin-left: 3%;
+  /* margin-left: 3%; */
 }
 
 .footer-icon {
@@ -66,7 +108,7 @@ body {
   flex-direction: row;
   justify-content: flex-start;
   align-items: baseline;
-  margin-left: 3%;
+  /* margin-left: 3%; */
 }
 
 .brand-name {
@@ -79,7 +121,6 @@ body {
 
 /* 481px — 768px: iPads, Tablets */
 @media only screen and (max-width: 600px) {
-
   .social-icons-container {
     width: 100%;
   }
@@ -88,8 +129,6 @@ body {
     width: 100%;
   }
 }
-
-
 
 /* 320px — 480px: Mobile devices
 769px — 1024px: Small screens, laptops
