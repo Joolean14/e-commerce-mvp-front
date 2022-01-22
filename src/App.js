@@ -96,7 +96,7 @@ function App() {
         <div className="legal-container">
           <p className="brand-name legal-text">Falso Ídolo ©</p>
           <p className="legal-text">|</p>
-          <p className="legal-text">Terms & Conditions</p>
+          <p className="legal-text">Terms and Conditions</p>
           <p className="legal-text">|</p>
           <p className="legal-text">Privacy Policy</p>
         </div>
